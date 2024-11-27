@@ -16,7 +16,7 @@ interface Props {}
 const MainLayout = (props: Props) => {
   return (
     <Layout>
-      <ASidebar icon="iSpace Admin">
+      <ASidebar icon="VXS Admin">
         {routes.map((route, idx) => createMenu(route, idx, "/admin"))}
       </ASidebar>
 
@@ -34,7 +34,7 @@ const MainLayout = (props: Props) => {
         </AContent>
 
         <Footer style={{ textAlign: "center" }}>
-          iSpace Admin &copy;{new Date().getFullYear()}
+          VXS Admin &copy;{new Date().getFullYear()}
         </Footer>
       </Layout>
     </Layout>
